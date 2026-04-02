@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<automotiveApp xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:config="http://schemas.android.com/apk/res/com.example.suspensioncontrol">
+    
+    <!-- Car App Configuration -->
+    <property config:configKey="com.example.suspensioncontrol.PROPERTY_SUSPENSION_MODE"
+        config:propertyType="VEHICLE_PROPERTY"
+        config:dataType="INT32"
+        config:access="READ_WRITE" />
+        
+</automotiveApp>

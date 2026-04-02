@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suspension Control</string>
+    
+    <!-- Mode Names -->
+    <string name="mode_comfort">COMFORT</string>
+    <string name="mode_sport">SPORT</string>
+    <string name="mode_off_road">OFF-ROAD</string>
+    <string name="mode_auto">AUTO</string>
+    <string name="mode_unknown">UNKNOWN</string>
+    
+    <!-- Status Bar -->
+    <string name="speed_label">Speed:</string>
+    <string name="current_mode_label">Current Mode:</string>
+    <string name="speed_unavailable">--- km/h</string>
+    
+    <!-- Warnings -->
+    <string name="warning_off_road_restricted">Off-road mode restricted above 30 km/h</string>
+    
+    <!-- Errors -->
+    <string name="error_mode_unavailable">Suspension control not available</string>
+    <string name="error_ecu_timeout">System timeout. Please try again</string>
+    <string name="error_speed_restriction">Off-road mode restricted above 30 km/h</string>
+    <string name="error_vhal">System error. Please restart vehicle</string>
+    <string name="error_dismiss">Dismiss</string>
+    <string name="error_retry">Retry</string>
+    
+    <!-- Confirmation Dialog -->
+    <string name="dialog_confirm_off_road_title">Enable Off-Road Mode?</string>
+    <string name="dialog_confirm_off_road_message">Off-road mode is not recommended above 30 km/h.\n\nCurrent speed: %1$d km/h</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_comfort_mode">Comfort mode</string>
+    <string name="cd_sport_mode">Sport mode</string>
+    <string name="cd_off_road_mode">Off-road mode</string>
+    <string name="cd_auto_mode">Auto mode</string>
+    <string name="cd_warning">Warning</string>
+    <string name="cd_error">Error</string>
+    <string name="cd_speed">Speed</string>
+</resources>
