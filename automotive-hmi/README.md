@@ -2,6 +2,24 @@
 
 A complete, runnable Android Automotive OS application for vehicle suspension mode control.
 
+## Quick Start
+
+```bash
+# Clone the repo
+git clone https://github.com/minaarmanios/Android_Hmi.git
+cd Android_Hmi
+
+# Open in Android Studio
+# File → Open → select this folder
+# Wait for Gradle sync → Run → Run 'app'
+```
+
+## Run on Emulator
+
+1. Open Android Studio → AVD Manager → Create Virtual Device
+2. Select "Automotive" → "Polestar 2" → API 34
+3. Start emulator, then Run → Run 'app'
+
 ## Features
 
 - **4 Suspension Modes**: COMFORT, SPORT, OFF-ROAD, AUTO
